@@ -1,8 +1,8 @@
 Student Management App REST API Documentation
 
 
-Overview
-The Student Management App is a RESTful API designed to manage student data. It supports Create, Read, Update, and Delete (CRUD) operations and is built using modern technologies and tools, ensuring efficiency and scalability.
+   Overview
+       The Student Management App is a RESTful API designed to manage student data. It supports Create, Read, Update, and Delete (CRUD) operations and is built using modern technologies and tools, ensuring efficiency and scalability.
 
 
 
@@ -24,30 +24,6 @@ Features
 3) API Documentation: Comprehensive API documentation using Swagger UI.
 
 
-Project Structure
-
-student-management-app
-│
-├── src
-│   ├── main
-│   │   ├── java
-│   │   │   └── com.example.studentmanagement
-│   │   │       ├── controller
-│   │   │       ├── model
-│   │   │       ├── repository
-│   │   │       ├── service
-│   │   │       └── StudentManagementApp.java
-│   │   └── resources
-│   │       ├── application.properties
-│   │       └── schema.sql
-│   └── test
-│       └── java
-│           └── com.example.studentmanagement
-│               └── StudentManagementAppTests.java
-├── pom.xml
-└── README.md
-
-
 
 Getting Started
  1) Prerequisites
@@ -59,10 +35,11 @@ Getting Started
 
 
 Validation
-Backend validation ensures data integrity and prevents invalid data from being stored in the database. The following validations are implemented:
+  Backend validation ensures data integrity and prevents invalid data from being stored in the database. The following validations are implemented:
+  Name: Must not be empty.
+  Email: Must be a valid email address.
+  Course: Must not be empty.
 
-Name: Must not be empty.
-Email: Must be a valid email address.
-Course: Must not be empty.
+  
 Conclusion
-The Student Management App REST API demonstrates efficient handling of student data using modern tools and technologies. It provides a robust backend solution with comprehensive API documentation, making it easy to interact with and extend.
+   The Student Management App REST API demonstrates efficient handling of student data using modern tools and technologies. It provides a robust backend solution with comprehensive API documentation, making it easy to interact with and extend.
